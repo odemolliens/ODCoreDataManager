@@ -36,10 +36,11 @@
     
     NSLog(@"%@",studentList);
     
+    //Other methods
     //[Student  fetchWithPredicate:...];
     //[Student fetchWithSort:...];
     //[Student fetchWithSort:... andPredicate:...];
-    
+    //...
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
