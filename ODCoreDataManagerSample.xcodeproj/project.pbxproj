@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234B50D5173F8F3E00E8CBB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234B50D4173F8F3E00E8CBB8 /* UIKit.framework */; };
+		234B50D7173F8F3E00E8CBB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234B50D6173F8F3E00E8CBB8 /* Foundation.framework */; };
+		234B50D9173F8F3E00E8CBB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234B50D8173F8F3E00E8CBB8 /* CoreGraphics.framework */; };
+		234B50DF173F8F3E00E8CBB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 234B50DD173F8F3E00E8CBB8 /* InfoPlist.strings */; };
+		234B50E1173F8F3E00E8CBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B50E0173F8F3E00E8CBB8 /* main.m */; };
+		234B50E5173F8F3E00E8CBB8 /* ODAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B50E4173F8F3E00E8CBB8 /* ODAppDelegate.m */; };
+		234B50E7173F8F3E00E8CBB8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 234B50E6173F8F3E00E8CBB8 /* Default.png */; };
+		234B50E9173F8F3E00E8CBB8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 234B50E8173F8F3E00E8CBB8 /* Default@2x.png */; };
+		234B50EB173F8F3E00E8CBB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 234B50EA173F8F3E00E8CBB8 /* Default-568h@2x.png */; };
+		234B50EE173F8F3E00E8CBB8 /* ODViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B50ED173F8F3E00E8CBB8 /* ODViewController.m */; };
+		234B50F1173F8F3E00E8CBB8 /* ODViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234B50EF173F8F3E00E8CBB8 /* ODViewController_iPhone.xib */; };
+		234B50F4173F8F3E00E8CBB8 /* ODViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234B50F2173F8F3E00E8CBB8 /* ODViewController_iPad.xib */; };
+		234B5102173F8F5100E8CBB8 /* NSSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B50FC173F8F5100E8CBB8 /* NSSingleton.m */; };
+		234B5103173F8F5100E8CBB8 /* ODCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B50FF173F8F5100E8CBB8 /* ODCDManager.m */; };
+		234B5104173F8F5100E8CBB8 /* ODManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B5101173F8F5100E8CBB8 /* ODManagedObject.m */; };
+		234B5107173F8F6800E8CBB8 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B5106173F8F6800E8CBB8 /* Student.m */; };
+		234B5109173F8F7100E8CBB8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234B5108173F8F7100E8CBB8 /* CoreData.framework */; };
+		234B510C173F8F8200E8CBB8 /* Student.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 234B510A173F8F8200E8CBB8 /* Student.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		234B50D1173F8F3E00E8CBB8 /* ODCoreDataManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODCoreDataManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234B50D4173F8F3E00E8CBB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		234B50D6173F8F3E00E8CBB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		234B50D8173F8F3E00E8CBB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		234B50DC173F8F3E00E8CBB8 /* ODCoreDataManagerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ODCoreDataManagerSample-Info.plist"; sourceTree = "<group>"; };
+		234B50DE173F8F3E00E8CBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		234B50E0173F8F3E00E8CBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		234B50E2173F8F3E00E8CBB8 /* ODCoreDataManagerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ODCoreDataManagerSample-Prefix.pch"; sourceTree = "<group>"; };
+		234B50E3173F8F3E00E8CBB8 /* ODAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODAppDelegate.h; sourceTree = "<group>"; };
+		234B50E4173F8F3E00E8CBB8 /* ODAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODAppDelegate.m; sourceTree = "<group>"; };
+		234B50E6173F8F3E00E8CBB8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		234B50E8173F8F3E00E8CBB8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		234B50EA173F8F3E00E8CBB8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		234B50EC173F8F3E00E8CBB8 /* ODViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODViewController.h; sourceTree = "<group>"; };
+		234B50ED173F8F3E00E8CBB8 /* ODViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODViewController.m; sourceTree = "<group>"; };
+		234B50F0173F8F3E00E8CBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ODViewController_iPhone.xib; sourceTree = "<group>"; };
+		234B50F3173F8F3E00E8CBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ODViewController_iPad.xib; sourceTree = "<group>"; };
+		234B50FB173F8F5100E8CBB8 /* NSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSingleton.h; sourceTree = "<group>"; };
+		234B50FC173F8F5100E8CBB8 /* NSSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSingleton.m; sourceTree = "<group>"; };
+		234B50FD173F8F5100E8CBB8 /* ODCDConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODCDConfiguration.h; sourceTree = "<group>"; };
+		234B50FE173F8F5100E8CBB8 /* ODCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODCDManager.h; sourceTree = "<group>"; };
+		234B50FF173F8F5100E8CBB8 /* ODCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODCDManager.m; sourceTree = "<group>"; };
+		234B5100173F8F5100E8CBB8 /* ODManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODManagedObject.h; sourceTree = "<group>"; };
+		234B5101173F8F5100E8CBB8 /* ODManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODManagedObject.m; sourceTree = "<group>"; };
+		234B5105173F8F6800E8CBB8 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		234B5106173F8F6800E8CBB8 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		234B5108173F8F7100E8CBB8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		234B510B173F8F8200E8CBB8 /* Student.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Student.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234B50CE173F8F3E00E8CBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B5109173F8F7100E8CBB8 /* CoreData.framework in Frameworks */,
+				234B50D5173F8F3E00E8CBB8 /* UIKit.framework in Frameworks */,
+				234B50D7173F8F3E00E8CBB8 /* Foundation.framework in Frameworks */,
+				234B50D9173F8F3E00E8CBB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234B50C8173F8F3E00E8CBB8 = {
+			isa = PBXGroup;
+			children = (
+				234B50DA173F8F3E00E8CBB8 /* ODCoreDataManagerSample */,
+				234B50D3173F8F3E00E8CBB8 /* Frameworks */,
+				234B50D2173F8F3E00E8CBB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		234B50D2173F8F3E00E8CBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234B50D1173F8F3E00E8CBB8 /* ODCoreDataManagerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234B50D3173F8F3E00E8CBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234B5108173F8F7100E8CBB8 /* CoreData.framework */,
+				234B50D4173F8F3E00E8CBB8 /* UIKit.framework */,
+				234B50D6173F8F3E00E8CBB8 /* Foundation.framework */,
+				234B50D8173F8F3E00E8CBB8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		234B50DA173F8F3E00E8CBB8 /* ODCoreDataManagerSample */ = {
+			isa = PBXGroup;
+			children = (
+				234B510A173F8F8200E8CBB8 /* Student.xcdatamodeld */,
+				234B5105173F8F6800E8CBB8 /* Student.h */,
+				234B5106173F8F6800E8CBB8 /* Student.m */,
+				234B50FA173F8F5100E8CBB8 /* ODCoreDataManager */,
+				234B50E3173F8F3E00E8CBB8 /* ODAppDelegate.h */,
+				234B50E4173F8F3E00E8CBB8 /* ODAppDelegate.m */,
+				234B50EC173F8F3E00E8CBB8 /* ODViewController.h */,
+				234B50ED173F8F3E00E8CBB8 /* ODViewController.m */,
+				234B50EF173F8F3E00E8CBB8 /* ODViewController_iPhone.xib */,
+				234B50F2173F8F3E00E8CBB8 /* ODViewController_iPad.xib */,
+				234B50DB173F8F3E00E8CBB8 /* Supporting Files */,
+			);
+			path = ODCoreDataManagerSample;
+			sourceTree = "<group>";
+		};
+		234B50DB173F8F3E00E8CBB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				234B50DC173F8F3E00E8CBB8 /* ODCoreDataManagerSample-Info.plist */,
+				234B50DD173F8F3E00E8CBB8 /* InfoPlist.strings */,
+				234B50E0173F8F3E00E8CBB8 /* main.m */,
+				234B50E2173F8F3E00E8CBB8 /* ODCoreDataManagerSample-Prefix.pch */,
+				234B50E6173F8F3E00E8CBB8 /* Default.png */,
+				234B50E8173F8F3E00E8CBB8 /* Default@2x.png */,
+				234B50EA173F8F3E00E8CBB8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		234B50FA173F8F5100E8CBB8 /* ODCoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				234B50FB173F8F5100E8CBB8 /* NSSingleton.h */,
+				234B50FC173F8F5100E8CBB8 /* NSSingleton.m */,
+				234B50FD173F8F5100E8CBB8 /* ODCDConfiguration.h */,
+				234B50FE173F8F5100E8CBB8 /* ODCDManager.h */,
+				234B50FF173F8F5100E8CBB8 /* ODCDManager.m */,
+				234B5100173F8F5100E8CBB8 /* ODManagedObject.h */,
+				234B5101173F8F5100E8CBB8 /* ODManagedObject.m */,
+			);
+			path = ODCoreDataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234B50D0173F8F3E00E8CBB8 /* ODCoreDataManagerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234B50F7173F8F3E00E8CBB8 /* Build configuration list for PBXNativeTarget "ODCoreDataManagerSample" */;
+			buildPhases = (
+				234B50CD173F8F3E00E8CBB8 /* Sources */,
+				234B50CE173F8F3E00E8CBB8 /* Frameworks */,
+				234B50CF173F8F3E00E8CBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODCoreDataManagerSample;
+			productName = ODCoreDataManagerSample;
+			productReference = 234B50D1173F8F3E00E8CBB8 /* ODCoreDataManagerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234B50C9173F8F3E00E8CBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Olivier Demolliens";
+			};
+			buildConfigurationList = 234B50CC173F8F3E00E8CBB8 /* Build configuration list for PBXProject "ODCoreDataManagerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 234B50C8173F8F3E00E8CBB8;
+			productRefGroup = 234B50D2173F8F3E00E8CBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234B50D0173F8F3E00E8CBB8 /* ODCoreDataManagerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234B50CF173F8F3E00E8CBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B50DF173F8F3E00E8CBB8 /* InfoPlist.strings in Resources */,
+				234B50E7173F8F3E00E8CBB8 /* Default.png in Resources */,
+				234B50E9173F8F3E00E8CBB8 /* Default@2x.png in Resources */,
+				234B50EB173F8F3E00E8CBB8 /* Default-568h@2x.png in Resources */,
+				234B50F1173F8F3E00E8CBB8 /* ODViewController_iPhone.xib in Resources */,
+				234B50F4173F8F3E00E8CBB8 /* ODViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234B50CD173F8F3E00E8CBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B50E1173F8F3E00E8CBB8 /* main.m in Sources */,
+				234B50E5173F8F3E00E8CBB8 /* ODAppDelegate.m in Sources */,
+				234B50EE173F8F3E00E8CBB8 /* ODViewController.m in Sources */,
+				234B5102173F8F5100E8CBB8 /* NSSingleton.m in Sources */,
+				234B5103173F8F5100E8CBB8 /* ODCDManager.m in Sources */,
+				234B5104173F8F5100E8CBB8 /* ODManagedObject.m in Sources */,
+				234B5107173F8F6800E8CBB8 /* Student.m in Sources */,
+				234B510C173F8F8200E8CBB8 /* Student.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		234B50DD173F8F3E00E8CBB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234B50DE173F8F3E00E8CBB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		234B50EF173F8F3E00E8CBB8 /* ODViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234B50F0173F8F3E00E8CBB8 /* en */,
+			);
+			name = ODViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		234B50F2173F8F3E00E8CBB8 /* ODViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234B50F3173F8F3E00E8CBB8 /* en */,
+			);
+			name = ODViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		234B50F5173F8F3E00E8CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		234B50F6173F8F3E00E8CBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234B50F8173F8F3E00E8CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODCoreDataManagerSample/ODCoreDataManagerSample-Prefix.pch";
+				INFOPLIST_FILE = "ODCoreDataManagerSample/ODCoreDataManagerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		234B50F9173F8F3E00E8CBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODCoreDataManagerSample/ODCoreDataManagerSample-Prefix.pch";
+				INFOPLIST_FILE = "ODCoreDataManagerSample/ODCoreDataManagerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234B50CC173F8F3E00E8CBB8 /* Build configuration list for PBXProject "ODCoreDataManagerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234B50F5173F8F3E00E8CBB8 /* Debug */,
+				234B50F6173F8F3E00E8CBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234B50F7173F8F3E00E8CBB8 /* Build configuration list for PBXNativeTarget "ODCoreDataManagerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234B50F8173F8F3E00E8CBB8 /* Debug */,
+				234B50F9173F8F3E00E8CBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		234B510A173F8F8200E8CBB8 /* Student.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				234B510B173F8F8200E8CBB8 /* Student.xcdatamodel */,
+			);
+			currentVersion = 234B510B173F8F8200E8CBB8 /* Student.xcdatamodel */;
+			path = Student.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 234B50C9173F8F3E00E8CBB8 /* Project object */;
+}

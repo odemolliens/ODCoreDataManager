@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'ok' target in the 'ok' project
+// Prefix header for all source files of the 'ODCoreDataManagerSample' target in the 'ODCoreDataManagerSample' project
 //
 
 #import <Availability.h>

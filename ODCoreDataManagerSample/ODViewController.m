@@ -1,18 +1,20 @@
 //
 //  ODViewController.m
-//  ok
+//  ODCoreDataManagerSample
 //
-//  Created by Olivier Demolliens on 11/05/13.
+//  Created by Olivier Demolliens on 12/05/13.
 //  Copyright (c) 2013 Olivier Demolliens. All rights reserved.
 //
 
 #import "ODViewController.h"
+
 
 //CoreDataManager
 #import "ODCDManager.h"
 
 //Sample
 #import "Student.h"
+
 
 @interface ODViewController ()
 
@@ -22,6 +24,8 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+	
     Student *aStudent = [Student init];
     [aStudent setFirstName:@"FirstName"];
     [aStudent setLastName:@"LastName"];
@@ -41,9 +45,6 @@
     //[Student fetchWithSort:...];
     //[Student fetchWithSort:... andPredicate:...];
     //...
-    
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
