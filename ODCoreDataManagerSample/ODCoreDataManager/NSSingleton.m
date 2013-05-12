@@ -1,9 +1,12 @@
 //
-//  NSSingleton.m
-//  Actelin
+//  MySingleton..h
+//  test singleton
 //
-//  Created by Olivier Demolliens on 19/01/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Jean-Luc Pedroni on 12/05/08.
+//  Mail: jeanluc.pedroni AT free.fr
+//
+//  You can use it as you wish,
+//  but please keep this header.
 //
 
 #import "NSSingleton.h"
