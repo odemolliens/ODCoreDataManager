@@ -20,6 +20,7 @@
 @property (readonly, retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 +(ODCDManager *)shared;
+
 -(void)saveContext;
 
 @end
